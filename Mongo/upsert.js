@@ -1,0 +1,1 @@
+db.coll.updateOne({a:1}, {$set: {b: 2}}, {upsert: true})
